@@ -1,0 +1,46 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.header {
+  background-color: rgb(210, 226, 240);
+  padding: 10px;
+  display: flex;
+  justify-content: end;
+  padding-right: 3%;
+}
+.profile{
+  margin-right: 3vw;
+  text-decoration: none;
+  color: black;
+}
+.logOutButton {
+  display: inline-block;
+  padding: 6px 15px;
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.logOutButton:hover {
+  background-color: #e53935;
+}
+
+.logOutButton:focus {
+  outline: none;
+}
+
+.logOutButton:active {
+  background-color: #b25757;
+}
